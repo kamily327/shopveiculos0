@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+body{
+    margin: 0;
+    background-color: rgb(5, 6, 10);
+    box-sizing: border-box;
+    overflow-x: hidden;
+ 
+}
+#conteudo-menu,#menu-inicio{
+      display: flex;
+      align-items: center;
+      list-style-type: none;
+     
+      
+}
+#conteudo-menu{
+    margin-left: 24%;
+
+}
+#menu-inicio h1{
+
+ color: rgb(230, 230, 230);
+ border-radius: 10px;
+ padding: 5px 20px;
+ margin-left: 2%;
+}
+#menu h2{
+      text-align: center;
+      margin-left: 29%;
+      font-size: 30px;
+      background: rgba(128, 128, 128, 0.274);
+      padding: 1px 14px;
+      opacity: 0.8;
+      border-radius: 20px;
+      color: white;
+    
+}
+#menu-inicio li{
+margin-left:35px;
+
+
+}
+#menu{
+    position: fixed;
+    width: 100%;
+  z-index: 1;
+  margin: 0%;
+    background-color: rgb(6, 7, 12);
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+li {
+    font-size: 20px;
+   
+    
+}
+
+#menu li{
+  color: rgb(204, 201, 201);
+}
+#menu li:hover{
+    
+     cursor: pointer;
+     opacity: 0.8;
+    border-radius:22px;
+}
+#img-inicio{
+padding-top: 94px;
+}
+#p-mbl{
+    display: none;
+}
+
+#border-destaque h1{ 
+    margin-top: 80px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+#borda{
+    width: 50px;
+  border: 3px dashed red;
+  margin-left: 48%;
+    color: aliceblue;
+}
+
+
+
+
+
+#veiculos{
+ 
+   justify-content: center;
+    display: flex;
+   
+}
+#veiculos img{
+   margin: 1%;
+   
+    width: 300px;
+}
+#veiculos h1{
+    color: white;
+}
+
+#carros{
+    display: flex;
+    justify-content: center;
+
+   
+}
+
+
+#carro1,#carro2,#carro3,#carro4,#carro5,#carro6{
+  
+  margin: 1%;
+    background: rgba(100, 99, 99, 0.925); 
+    font-family: "Bebas Neue", serif;
+    color: white;
+    width: 301px;
+    height: 155px;
+    margin-top: -1px;
+    font-size: 22px;
+  
+    
+}
+#carro1 p ,#carro2 p,#carro3 p,#carro4 p , #carro5 p, #carro6 p{
+    margin-left: 10%;
+ 
+}
+#carros a {
+    text-decoration: none;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    margin-right: 10%;
+     padding:10px 10px;
+    color: white;
+    margin-top: -20px;
+    background: rgba(235, 0, 0, 0.918);
+    font-size: 20px;
+}
+hr{
+margin-left: 10%;
+margin-right: 10%;
+opacity: 0.5;
+}
+#segunda-sessao {
+    display: flex;
+
+    justify-content: center;
+    margin-top: 60px;
+   
+  
+}
+#segunda-sessao img{
+    width: 300px;
+    margin: 1%;
+}
+#segunda-sessao img:hover{
+    opacity: 0.8;
+}
+#veiculos img:hover{
+    opacity: 0.8;
+}
+#carros a:hover{
+    opacity: 0.9;
+}
+section,section h1{
+    background: white;
+    text-align: center;
+}
+#texts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section h1{
+   padding-top: 3%;
+   font-family: "Bebas Neue", serif;
+   font-weight: 400;
+   font-size: 50px;
+  
+}
+#borda-2{
+    width: 50px;
+    margin-left: 48%;
+    margin-top: -50px;
+    border-bottom: 4px dashed goldenrod;
+}
+#text{
+   margin: 4%;
+   font-family: "Bebas Neue", serif;
+   font-weight: 300;
+  font-size: 25px;
+}
+#text p {
+    padding-left: 10px;
+}
+footer{
+    display: flex;
+   
+    background: #161718;
+}
+footer p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-weight: 100;
+    font-size: 14px;
+}
+#horario{
+    width: 380px;
+    padding-right: 700px;
+    padding-top:95px ;
+}
+#info{
+    margin-left: 10%;
+
+    margin-top: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#endereco{
+    margin-top: 25px;
+
+}
+#final{
+
+   width: 100px;
+}
+#final p{
+    width: 300px;
+    font-weight: 100;
+ color: rgb(177, 173, 173);
+ 
+ 
+ font-size: 13px;
+}
+#final1{
+    width: 300px;
+    padding-top: 10px;
+}
+#borda-3{
+    
+    margin-right: 10%;
+    width: 1060px;
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(83, 82, 82);
+
+}
+#img-iniciombl,#melhores-mbl,#carro1-mbl,#carro2-mbl,#carro3-mbl,#carro4-mbl,#carro5-mbl,#carro6-mbl , #p-mbl,#mblvei {
+ display: none;
+}
